@@ -29,4 +29,5 @@ df1 = pd.DataFrame({
 
 # save the results to csv file locally
 df1.to_csv("cityNames.csv", index=False)
+# print(df1.shape)
 print("You got all the cities saved locally!!")
